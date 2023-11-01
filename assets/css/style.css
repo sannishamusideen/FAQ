@@ -14,7 +14,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 150vh;
+  min-height: 130vh;
 }
 
 .section {
@@ -75,7 +75,5 @@ img {
 }
 
 @media (min-width: 840px) {
-  .section {
-    display: flex;
-  }
+
 }
