@@ -14,7 +14,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 .section {
@@ -72,4 +72,10 @@ img {
 }
 .arrow.rotate img {
   transform: rotate(180deg);
+}
+
+@media (min-width: 840px) {
+  .section {
+    display: flex;
+  }
 }
