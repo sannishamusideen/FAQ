@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+
+body {
+  background-color: hsl(273, 75%, 66%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200vh;
+}
+
+.section {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  margin: 0 20px;
+}
+.section .image {
+  width: 290px;
+  position: absolute;
+  right: 40px;
+}
+
+.section .image-bg {
+  width: 300px;
+  position: absolute;
+  top: -140px;
+  right: 32px;
+}
+
+.section .faq-box {
+  margin-top: 140px;
+  text-align: center;
+  padding: 20px;
+}
+.section .faq-box h4 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+.wrap {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  padding: 20px;
+}
+
+.section .faq-box .question {
+  margin: 10px 0;
+}
+.section .faq-box .question .arrow {
+  cursor: pointer;
+}
+.section .faq-box .answer {
+  display: none;
+  color: hsl(240, 6%, 50%);
+  font-size: 16px;
+  text-align: left;
+}
+.arrow img {
+  width: 20px;
+  height: 15px;
+  margin-left: 20px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+.arrow.rotate img {
+  transform: rotate(180deg);
+}
