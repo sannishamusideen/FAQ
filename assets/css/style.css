@@ -53,6 +53,7 @@ img {
 
 .section .faq-box .question {
   margin: 10px 0;
+  font-size: 11px;
 }
 .section .faq-box .question .arrow {
   cursor: pointer;
@@ -75,5 +76,4 @@ img {
 }
 
 @media (min-width: 840px) {
-
 }
