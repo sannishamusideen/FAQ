@@ -9,12 +9,12 @@ img {
   width: 100%;
 }
 
-body {
+.body {
   background-color: hsl(273, 75%, 66%);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200vh;
+  min-height: 100vh;
 }
 
 .section {
@@ -22,7 +22,7 @@ body {
   background-color: white;
   border-radius: 20px;
   position: relative;
-  margin: 0 20px;
+  margin: 20px 20px;
 }
 .section .image {
   width: 290px;
