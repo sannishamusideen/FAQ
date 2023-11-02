@@ -27,14 +27,14 @@ img {
 .section .image {
   width: 290px;
   position: absolute;
-  right: 40px;
+  right: 55px;
 }
 
 .section .image-bg {
   width: 300px;
   position: absolute;
   top: -140px;
-  right: 32px;
+  right: 48px;
 }
 
 .section .faq-box {
@@ -63,6 +63,7 @@ img {
   color: hsl(240, 6%, 50%);
   font-size: 16px;
   text-align: left;
+  line-height: 1.4;
 }
 .arrow img {
   width: 20px;
@@ -76,4 +77,5 @@ img {
 }
 
 @media (min-width: 840px) {
+  
 }
